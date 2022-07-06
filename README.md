@@ -1,2 +1,3 @@
-# haze.github.io
-Cydia repo
+# jakeajames.github.io
+
+The Jakeashacks Cydia repo
