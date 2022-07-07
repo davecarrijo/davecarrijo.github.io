@@ -21,10 +21,10 @@ Maintainer: Haze
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: debs/pdfexpertpro_1.0.5_iphoneos-arm.deb
-Size: 3530
-Installed-Size: 120
+Size: 800
+Installed-Size: 417
 SHA256: e9bad8be11cfd45f4f9c37a5f11fc01395eaa2f705f14d0ee82949fa9b9effd3
-Description: Fixes some functionality inside of Activator by adding missing methods to SpringBoard. Does not touch Activator itself.
+Description: Expert pdf premium
 Name: PDF Expert pro Premium
 Author: Haze
 
