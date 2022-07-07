@@ -1,18 +1,16 @@
-# <!--
-# post deb file exempler
-# Package: com.jakeashacks.activatorfix
-# Version: 1.2.1
-# Section: Tweaks
-# Maintainer: Jake James
-# Depends: mobilesubstrate, libactivator
+# Package: com.user.example
+# Name: Example Tweak
 # Architecture: iphoneos-arm
-# Filename: debs//com.jakeashacks.activatorfix_1.2.1_iphoneos-arm.deb
-# Size: 10390
-# Installed-Size: 120
-# SHA256: 2e20792c1cdffae2ec50afe613100eb658c0f3f94c302ff82d27d9d9f08c5f6d
-# Description: This tweak fixes some functionality inside Activator by adding missing methods to SpringBoard. Does not touch Activator itself. Source code: https://github.com/jakeajames/ActivatorFix
-# Name: ActivatorFix
-# Author: Jake James -->
+# Description: Example description
+# Depiction: http://example.com/depiction
+# Homepage: http://example.com
+# Maintainer: example <user@example.com>
+# Author: example <user@example.com>
+# Section: Tweaks
+# Depends: mobilesubstrate
+# Version: 1.0.1
+# Icon: file:///PreferenceBundles/Example.bundle/icon@2x.png
+#
 
 Package: pdfexpertpro_1.0.5_iphoneos-arm.deb
 Version: 1.0
