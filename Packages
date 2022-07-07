@@ -1,32 +1,32 @@
-<!--
-post deb file exempler
-Package: com.jakeashacks.activatorfix
-Version: 1.2.1
-Section: Tweaks
-Maintainer: Jake James
-Depends: mobilesubstrate, libactivator
-Architecture: iphoneos-arm
-Filename: debs//com.jakeashacks.activatorfix_1.2.1_iphoneos-arm.deb
-Size: 10390
-Installed-Size: 120
-SHA256: 2e20792c1cdffae2ec50afe613100eb658c0f3f94c302ff82d27d9d9f08c5f6d
-Description: This tweak fixes some functionality inside Activator by adding missing methods to SpringBoard. Does not touch Activator itself. Source code: https://github.com/jakeajames/ActivatorFix
-Name: ActivatorFix
-Author: Jake James -->
+# <!--
+# post deb file exempler
+# Package: com.jakeashacks.activatorfix
+# Version: 1.2.1
+# Section: Tweaks
+# Maintainer: Jake James
+# Depends: mobilesubstrate, libactivator
+# Architecture: iphoneos-arm
+# Filename: debs//com.jakeashacks.activatorfix_1.2.1_iphoneos-arm.deb
+# Size: 10390
+# Installed-Size: 120
+# SHA256: 2e20792c1cdffae2ec50afe613100eb658c0f3f94c302ff82d27d9d9f08c5f6d
+# Description: This tweak fixes some functionality inside Activator by adding missing methods to SpringBoard. Does not touch Activator itself. Source code: https://github.com/jakeajames/ActivatorFix
+# Name: ActivatorFix
+# Author: Jake James -->
 
-Package: com.jakeashacks.activator
+Package: pdfexpertpro_1.0.5_iphoneos-arm.deb
 Version: 1.0
 Section: Tweaks
-Maintainer: Jake James
-Depends: mobilesubstrate, libactivator
+Maintainer: Haze
+Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: debs//com.jakeashacks.activator_1.0_iphoneos-arm.deb
+Filename: debs/pdfexpertpro_1.0.5_iphoneos-arm.deb
 Size: 3530
 Installed-Size: 120
 SHA256: e9bad8be11cfd45f4f9c37a5f11fc01395eaa2f705f14d0ee82949fa9b9effd3
-Description: Fixes some functionality inside of Activator by adding missing methods to SpringBoard. Does not touch Activator itself. Source code: https://github.com/jakeajames/ActivatorFix
-Name: ActivatorFix
-Author: Jake James
+Description: Fixes some functionality inside of Activator by adding missing methods to SpringBoard. Does not touch Activator itself.
+Name: PDF Expert pro Premium
+Author: Haze
 
 Package: com.jakeashacks.activatorfix
 Version: 1.2.1
