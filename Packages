@@ -26,3 +26,18 @@ Name: Old Package
 Author: Reposi3 <reposithree@gmail.com>
 Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
 
+
+Package: com.pdfexpertpro.newpackage
+Version: 1.0-2
+Section: Tweaks
+Maintainer: Haze
+Depends: firmware (>14.0)
+Architecture: iphoneos-arm
+Filename: ./debs/com.pdfexpertpro.newpackage_1.0-2_iphoneos-arm.deb
+Size: 500
+MD5sum: 8c606f0c05217aa2a20949091fe516f0
+Description: kkkk
+Name: PDF expert pro premium
+Author: Haze
+Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
+
