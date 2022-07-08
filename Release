@@ -1,9 +1,8 @@
-Origin: Haze
-Label: Haze's Repo
+Origin: Reposi3
+Label: Reposi3
 Suite: stable
 Version: 1.0
-Codename: hazerepo
+Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: Haze's Cydia Repository
-Date: Wed, 07 July 2022 07:38:50 +0000
+Description: Reposi3 - a cydia repo template
