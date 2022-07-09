@@ -22,17 +22,17 @@ body {
 }
 .link-item:hover {
   border: 1px solid #ddd;
-  background-color: #f5f5f5;
+  background-color: #f5f5f55b;
 }
 
 html.can-touch .link-item:hover {
   /* disable hover effect when input is touch */
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.336);
 }
 
 html.can-touch .link-item:active {
   /* disable hover effect when input is touch */
-  background-color: #f5f5f5;
+  background-color: #f5f5f54d;
 }
 
 .fa {
@@ -58,6 +58,8 @@ html.can-touch .link-item:active {
     padding: 1%;
     text-align: center;
     border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 40px;
   }
 
   .list-group-item {
