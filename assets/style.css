@@ -1,0 +1,16 @@
+.main_containe {
+  display: flex;
+  align-content: center;
+}
+.add-repos {
+}
+.social-link {
+  background-color: rgba(101, 101, 101, 0.15);
+  color: rgb(94, 94, 94);
+  padding: 10px;
+  border-radius: 7%;
+  text-decoration: none;
+}
+.social-link::hover {
+  color: rgb(0, 51, 254);
+}

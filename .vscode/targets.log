@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jul 09 07:39:06 2022
+# Make data base, printed on Sat Jul 09 07:44:32 2022
 
 # Variables
 
@@ -23,9 +23,7 @@ USERPROFILE = C:\Users\davec
 # environment
 LOCALAPPDATA = C:\Users\davec\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-4d1c05a2-1475-4f59-bf62-74322072fa38-sock
-# environment
-WSLENV = WT_SESSION::WT_PROFILE_ID
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-5efc5a01-6ef6-4e5f-8dbd-577812564e51-sock
 # environment
 VSCODE_CWD = C:\tools\repo\davecarrijo.github.io
 # environment
@@ -35,13 +33,13 @@ SYSTEMROOT = C:\Windows
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-PSMODULEPATH = C:\Users\davec\OneDrive\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
 # default
 MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_11884_QSKSFKJMJEOQQEQL
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_22976_JWVVHVETDSFQHLUO
 # environment
 CLOUDSDK_METRICS_ENVIRONMENT_VERSION = 1.19.0
 # environment
@@ -59,13 +57,9 @@ VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-CONDA_PROMPT_MODIFIER = False
-# environment
 VSCODE_CODE_CACHE_PATH = C:\Users\davec\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
 # environment
 LANG = C
-# environment
-AZ_ENABLED = False
 # default
 .LOADED := 
 # environment
@@ -85,9 +79,7 @@ CURDIR := c:/tools/repo/davecarrijo.github.io
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
-# environment
-POWERLINE_COMMAND = oh-my-posh
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
 *D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
 # environment
@@ -99,6 +91,8 @@ MFLAGS = -pqrR
 # default
 .SHELLFLAGS := -c
 # environment
+CLOUDSDK_PYTHON = C:\Users\davec\AppData\Local\Temp\tmpu8acfton\python\python.exe
+# environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # automatic
 +D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
@@ -109,19 +103,15 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 11884
+VSCODE_PID = 22976
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
-# environment
-WT_PROFILE_ID = {61c54bbd-c2c6-5271-96e7-009a87ff44bf}
 # automatic
 *F = $(notdir $*)
 # automatic
 <D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
-# environment
-POSH_GIT_ENABLED = False
 # environment
 ONEDRIVECONSUMER = C:\Users\davec\OneDrive
 # default
@@ -157,8 +147,6 @@ PROMPT = $P$G
 # environment
 CHOCOLATEYLASTPATHUPDATE = 132961004061312596
 # environment
-WT_SESSION = 02b33cff-804d-4a24-a95e-c5fa7ad03935
-# environment
 LOGONSERVER = \\DAVE
 # environment
 VSCODE_LOG_NATIVE = false
@@ -171,7 +159,7 @@ COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # environment
 PROGRAMW6432 = C:\Program Files
 # environment
-PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.CPL
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
 # automatic
 +F = $(notdir $+)
 # environment
@@ -223,10 +211,6 @@ ALLUSERSPROFILE = C:\ProgramData
 # environment
 SESSIONNAME = Console
 # environment
-VSCODE_CLI = 1
-# environment
-ELECTRON_NO_ATTACH_CONSOLE = 1
-# environment
 CLOUDSDK_METRICS_ENVIRONMENT = cloudcode.vscode
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
@@ -239,7 +223,7 @@ CHOCOLATEYTOOLSLOCATION = C:\tools
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 12, GenuineIntel
 # variable set hash-table stats:
-# Load=113/1024=11%, Rehash=0, Collisions=14/137=10%
+# Load=105/1024=10%, Rehash=0, Collisions=11/129=9%
 
 # Pattern-specific Variable Values
 
@@ -247,7 +231,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 12, GenuineIntel
 
 # Directories
 
-# . (key c:/tools/repo/davecarrijo.github.io, mtime 1657348743): 16 files, no impossibilities.
+# . (key c:/tools/repo/davecarrijo.github.io, mtime 1657349058): 16 files, no impossibilities.
 
 # 16 files, no impossibilities in 1 directories.
 
@@ -312,6 +296,6 @@ GNUmakefile:
 # strcache performance: lookups = 26 / hit rate = 11%
 # hash-table stats:
 # Load=23/8192=0%, Rehash=0, Collisions=0/26=0%
-# Finished Make data base on Sat Jul 09 07:39:06 2022
+# Finished Make data base on Sat Jul 09 07:44:32 2022
 
  
