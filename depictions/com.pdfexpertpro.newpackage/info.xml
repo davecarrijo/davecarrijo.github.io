@@ -3,9 +3,14 @@
 	<name>Full Package</name>
 	<version>2.0.0-1</version>
 	<compatibility>
-		<firmware>
-			<miniOS></miniOS>14.0</miniOS>
-		</firmware>
+		 <firmware>
+            <miniOS>14.0</miniOS>
+            <maxiOS>14.8.1</maxiOS>
+            <otherVersions>unsupported</otherVersions>
+            <!--
+            for otherVersions, you can put either unsupported or unconfirmed
+            -->
+        </firmware>
 	</compatibility>
 	<dependencies>
 		<package>mobilesubstrate</package>
@@ -32,8 +37,6 @@
 	</screenshots>
 	<changelog>
 		<change>Second release</change>
-		<change>It has feature 1</change>
-		<change>It has feature 2</change>
 	</changelog>
 	<links>
 		<link>

@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jul 09 07:44:32 2022
+# Make data base, printed on Sat Jul 09 08:19:34 2022
 
 # Variables
 
@@ -23,7 +23,7 @@ USERPROFILE = C:\Users\davec
 # environment
 LOCALAPPDATA = C:\Users\davec\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-5efc5a01-6ef6-4e5f-8dbd-577812564e51-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-f4baae79-ca78-49d8-90fa-b16c2b226a9c-sock
 # environment
 VSCODE_CWD = C:\tools\repo\davecarrijo.github.io
 # environment
@@ -39,7 +39,7 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_22976_JWVVHVETDSFQHLUO
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_8360_VTOHBRCHQQNRDSMH
 # environment
 CLOUDSDK_METRICS_ENVIRONMENT_VERSION = 1.19.0
 # environment
@@ -91,8 +91,6 @@ MFLAGS = -pqrR
 # default
 .SHELLFLAGS := -c
 # environment
-CLOUDSDK_PYTHON = C:\Users\davec\AppData\Local\Temp\tmpu8acfton\python\python.exe
-# environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # automatic
 +D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
@@ -103,7 +101,7 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 22976
+VSCODE_PID = 8360
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -223,7 +221,7 @@ CHOCOLATEYTOOLSLOCATION = C:\tools
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 12, GenuineIntel
 # variable set hash-table stats:
-# Load=105/1024=10%, Rehash=0, Collisions=11/129=9%
+# Load=104/1024=10%, Rehash=0, Collisions=11/128=9%
 
 # Pattern-specific Variable Values
 
@@ -231,9 +229,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 12, GenuineIntel
 
 # Directories
 
-# . (key c:/tools/repo/davecarrijo.github.io, mtime 1657349058): 16 files, no impossibilities.
+# . (key c:/tools/repo/davecarrijo.github.io, mtime 1657350966): 20 files, no impossibilities.
 
-# 16 files, no impossibilities in 1 directories.
+# 20 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -290,12 +288,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 23 / storage = 204 B / avg = 8 B
-# current buf: size = 8174 B / used = 204 B / count = 23 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 27 / storage = 243 B / avg = 9 B
+# current buf: size = 8174 B / used = 243 B / count = 27 / avg = 9 B
 
-# strcache performance: lookups = 26 / hit rate = 11%
+# strcache performance: lookups = 30 / hit rate = 10%
 # hash-table stats:
-# Load=23/8192=0%, Rehash=0, Collisions=0/26=0%
-# Finished Make data base on Sat Jul 09 07:44:32 2022
+# Load=27/8192=0%, Rehash=0, Collisions=0/30=0%
+# Finished Make data base on Sat Jul 09 08:19:34 2022
 
  
