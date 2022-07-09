@@ -1,0 +1,6 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'c:/tools/repo/davecarrijo.github.io'
+make: Leaving directory 'c:/tools/repo/davecarrijo.github.io'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
