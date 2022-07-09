@@ -6,9 +6,14 @@
 			<iconclass>fa fa-twitter</iconclass>
 		</link>
 		<link>
-			<name>I want this depiction template</name>
+			<name>Follow me on Git-Hub</name>
 			<url>https://github.com/davecarrijo</url>
-			<iconclass>fa fa-thumbs-up</iconclass>
+			<iconclass>fa fa-github</iconclass>
+
 		</link>
+		<link>
+		<name>davecarrijodev@gmail.com</name>
+		</link>
+
 	</footerlinks>
 </repo>
