@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jul 09 08:19:34 2022
+# Make data base, printed on Sat Jul 09 08:48:38 2022
 
 # Variables
 
@@ -23,7 +23,9 @@ USERPROFILE = C:\Users\davec
 # environment
 LOCALAPPDATA = C:\Users\davec\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-f4baae79-ca78-49d8-90fa-b16c2b226a9c-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-7cbf9033-7c2d-40e2-81fe-ec7eb7617b56-sock
+# environment
+WSLENV = WT_SESSION::WT_PROFILE_ID
 # environment
 VSCODE_CWD = C:\tools\repo\davecarrijo.github.io
 # environment
@@ -33,13 +35,13 @@ SYSTEMROOT = C:\Windows
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PSMODULEPATH = C:\Users\davec\OneDrive\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
 # default
 MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_8360_VTOHBRCHQQNRDSMH
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_20680_JTZBEHWLACFDXTUE
 # environment
 CLOUDSDK_METRICS_ENVIRONMENT_VERSION = 1.19.0
 # environment
@@ -57,9 +59,13 @@ VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
+CONDA_PROMPT_MODIFIER = False
+# environment
 VSCODE_CODE_CACHE_PATH = C:\Users\davec\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
 # environment
 LANG = C
+# environment
+AZ_ENABLED = False
 # default
 .LOADED := 
 # environment
@@ -80,6 +86,8 @@ CURDIR := c:/tools/repo/davecarrijo.github.io
 VSCODE_PIPE_LOGGING = true
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+POWERLINE_COMMAND = oh-my-posh
 # automatic
 *D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
 # environment
@@ -101,15 +109,19 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 8360
+VSCODE_PID = 20680
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# environment
+WT_PROFILE_ID = {61c54bbd-c2c6-5271-96e7-009a87ff44bf}
 # automatic
 *F = $(notdir $*)
 # automatic
 <D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+POSH_GIT_ENABLED = False
 # environment
 ONEDRIVECONSUMER = C:\Users\davec\OneDrive
 # default
@@ -145,6 +157,8 @@ PROMPT = $P$G
 # environment
 CHOCOLATEYLASTPATHUPDATE = 132961004061312596
 # environment
+WT_SESSION = 02b33cff-804d-4a24-a95e-c5fa7ad03935
+# environment
 LOGONSERVER = \\DAVE
 # environment
 VSCODE_LOG_NATIVE = false
@@ -157,7 +171,7 @@ COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # environment
 PROGRAMW6432 = C:\Program Files
 # environment
-PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.CPL
 # automatic
 +F = $(notdir $+)
 # environment
@@ -207,7 +221,9 @@ SUFFIXES :=
 # environment
 ALLUSERSPROFILE = C:\ProgramData
 # environment
-SESSIONNAME = Console
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
 # environment
 CLOUDSDK_METRICS_ENVIRONMENT = cloudcode.vscode
 # default
@@ -221,7 +237,7 @@ CHOCOLATEYTOOLSLOCATION = C:\tools
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 12, GenuineIntel
 # variable set hash-table stats:
-# Load=104/1024=10%, Rehash=0, Collisions=11/128=9%
+# Load=112/1024=11%, Rehash=0, Collisions=14/136=10%
 
 # Pattern-specific Variable Values
 
@@ -229,9 +245,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 12, GenuineIntel
 
 # Directories
 
-# . (key c:/tools/repo/davecarrijo.github.io, mtime 1657350966): 20 files, no impossibilities.
+# . (key c:/tools/repo/davecarrijo.github.io, mtime 1657352350): 22 files, no impossibilities.
 
-# 20 files, no impossibilities in 1 directories.
+# 22 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -288,12 +304,13 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 27 / storage = 243 B / avg = 9 B
-# current buf: size = 8174 B / used = 243 B / count = 27 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 29 / storage = 254 B / avg = 8 B
+# current buf: size = 8174 B / used = 254 B / count = 29 / avg = 8 B
 
-# strcache performance: lookups = 30 / hit rate = 10%
+# strcache performance: lookups = 32 / hit rate = 9%
 # hash-table stats:
-# Load=27/8192=0%, Rehash=0, Collisions=0/30=0%
-# Finished Make data base on Sat Jul 09 08:19:34 2022
+# Load=29 
+/8192=0%, Rehash=0, Collisions=0/32=0%
+# Finished Make data base on Sat Jul 09 08:48:38 2022
 
  
